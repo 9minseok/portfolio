@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
         <li>React</li>
+        <li>React-Native</li>
+        <li>Node.js</li>
+        <li>Next.js</li>
+        <li>TypeScript</li>
+        <li>JavaScript</li>
       </ul>
     ),
   },
@@ -23,18 +23,18 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>삼성 SW 청년 아카데미</li>
+        <li>포스코 AI, BIGDATA 아카데미</li>
+        <li>공공빅데이터 청년인턴십</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Awards",
+    id: "awards",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>포스코 BigData 분석 프로젝트 최우수</li>
       </ul>
     ),
   },
@@ -53,16 +53,19 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image
+          src="/images/minseok2.jpg"
+          alt="minseok2"
+          width={400}
+          height={400}
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            안녕하세요! 프론트엔드를 꿈꾸는 구민석입니다.<br/>
+            
+            계속해서 변화하는 시대에 맞춰 새로운 방식에 도전하는 것을 즐기는<br/>
+            프론트엔드 개발자가 되겠습니다.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -80,11 +83,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("awards")}
+              active={tab === "awards"}
             >
               {" "}
-              Certifications{" "}
+              Awards{" "}
             </TabButton>
           </div>
           <div className="mt-8">
