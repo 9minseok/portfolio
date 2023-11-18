@@ -36,10 +36,6 @@ const MainSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            새로운 시도를 두려워하지 않는 프론트엔드 개발자가 되겠습니다. <br/>
-            데이터의 힘을 이용하여 사용자 경험을 최적화하고, 효과적인 시각화와 사용자 친화적인 인터페이스로 보다 더 나은 세상으로 만들어가고 싶습니다.
-          </p>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

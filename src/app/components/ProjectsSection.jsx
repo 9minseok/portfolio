@@ -8,56 +8,47 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    description: "개인 웹 포트폴리오",
+    image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/9minseok/portfolio",
+    previewUrl: "https://portfolio-9minseok.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Eager Beaver",
+    description: "부동산 웹 게임 시뮬레이션",
+    image: "/images/projects/EagerBeaver.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/9minseok/EagerBeaver",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=c71bae39718b498581cd9168924133ce&pm=c",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: "SSWM",
+    description: "화상 스터디 웹사이트",
+    image: "/images/projects/SSWM.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/9minseok/SSWM",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=950c8267401f42ef9dbedd5336e37850&pm=c",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "AI무인점포",
+    description: "무인 AI CCTV",
+    image: "/images/projects/무인점포.jpg",
+    tag: ["All", "Etc"],
+    gitUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=29ba7930062f46f1813c35d93f04c923&pm=c",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=29ba7930062f46f1813c35d93f04c923&pm=c",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "홈쇼핑 빅데이터 분석",
+    description: "수요 예측 모델링",
+    image: "/images/projects/홈쇼핑.png",
+    tag: ["All", "Etc"],
+    gitUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=163a55d94568450690cffb61fe28d5c9&pm=c",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=163a55d94568450690cffb61fe28d5c9&pm=c",
   },
 ];
 
@@ -99,6 +90,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Etc"
+          isSelected={tag === "Etc"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

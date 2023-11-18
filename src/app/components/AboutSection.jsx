@@ -62,10 +62,23 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            안녕하세요! 프론트엔드를 꿈꾸는 구민석입니다.<br/>
-            
-            계속해서 변화하는 시대에 맞춰 새로운 방식에 도전하는 것을 즐기는<br/>
+            안녕하세요! 프론트엔드를 꿈꾸는 구민석입니다.
+            <br/>
+            계속해서 변화하는 시대에 맞춰 새로운 방식에 도전하는 것을 즐기는
+            <br/>
             프론트엔드 개발자가 되겠습니다.
+            <br/>
+            <br/>
+            React/TypeScript 등 프레임위크 환경에서 컴포넌트 단위의 마크업 작업을
+            <br/>
+            능숙하게 할 수 있어요. 어디에서든 잘 보이는 반응형, 웹 접근성과 웹 표준을
+            <br/>
+            고려한 웹 페이지를 그려냅니다.
+            <br/>
+            <br/>
+            맡은 프로젝트를 우선으로 고려하며, 원활한 협업을 중요하게 생각해요.
+            <br/>
+            다양한 직군과 함께 멋지고 즐거운 페이지를 만드는데 관심이 많습니다.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
