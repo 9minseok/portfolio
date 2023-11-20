@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     description: "개인 웹 포트폴리오",
-    image: "/images/projects/portfolio.PNG",
+    image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/9minseok/portfolio",
     previewUrl: "https://portfolio-9minseok.vercel.app/",
