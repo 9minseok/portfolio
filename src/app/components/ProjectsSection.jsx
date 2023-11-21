@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "DRILL",
+    description: "클라이밍 커뮤니티 앱",
+    image: "/images/projects/DRILL.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/9minseok/port.png",
+    previewUrl: "https://portfolio-9minseok.vercel.app/",
+  },
+  {
+    id: 2,
     title: "React Portfolio Website",
     description: "개인 웹 포트폴리오",
     image: "/images/projects/portfolio.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "https://portfolio-9minseok.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Eager Beaver",
     description: "부동산 웹 게임 시뮬레이션",
     image: "/images/projects/EagerBeaver.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=c71bae39718b498581cd9168924133ce&pm=c",
   },
   {
-    id: 3,
+    id: 4,
     title: "SSWM",
     description: "화상 스터디 웹사이트",
     image: "/images/projects/SSWM.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=950c8267401f42ef9dbedd5336e37850&pm=c",
   },
   {
-    id: 4,
+    id: 5,
     title: "AI무인점포",
     description: "무인 AI CCTV",
     image: "/images/projects/무인점포.jpg",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=29ba7930062f46f1813c35d93f04c923&pm=c",
   },
   {
-    id: 5,
+    id: 6,
     title: "홈쇼핑 빅데이터 분석",
     description: "수요 예측 모델링",
     image: "/images/projects/홈쇼핑.png",
