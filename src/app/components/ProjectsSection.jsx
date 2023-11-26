@@ -11,8 +11,8 @@ const projectsData = [
     description: "클라이밍 커뮤니티 앱",
     image: "/images/projects/DRILL.png",
     tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/9minseok/port.png",
-    previewUrl: "https://portfolio-9minseok.vercel.app/",
+    gitUrl: "https://github.com/9minseok/DRILL",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=0038d7fa278a40c8a6aa023fe4b156c6&pm=c",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/portfolio1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/9minseok/portfolio",
-    previewUrl: "https://portfolio-9minseok.vercel.app/",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=c71bae39718b498581cd9168924133ce&pm=c",
   },
   {
     id: 3,
