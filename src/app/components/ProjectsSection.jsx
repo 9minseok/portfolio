@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/EagerBeaver.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/9minseok/EagerBeaver",
-    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=c71bae39718b498581cd9168924133ce&pm=c",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=6f9b55431db24b53958a2ce17bd4617a&pm=c",
   },
   {
     id: 4,
