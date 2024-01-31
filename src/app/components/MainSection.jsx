@@ -28,8 +28,6 @@ const MainSection = () => {
                 1000,
                 "Mobile Developer",
                 1000,
-                "Data Analyst", 
-                1000,
               ]}
               wrapper="span"
               speed={50}

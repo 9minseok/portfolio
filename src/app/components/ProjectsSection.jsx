@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "DRILL",
-    description: "클라이밍 커뮤니티 앱",
-    image: "/images/projects/DRILL.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/9minseok/DRILL",
-    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=0038d7fa278a40c8a6aa023fe4b156c6&pm=c",
+    title: "Ecommerce-Shop SPA",
+    description: "전자상거래 웹페이지",
+    image: "/images/projects/E-shop.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/9minseok/E-shop",
+    previewUrl: "https://www.notion.so/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=c71bae39718b498581cd9168924133ce&pm=c",
   },
   {
     id: 2,
@@ -21,10 +21,19 @@ const projectsData = [
     image: "/images/projects/portfolio1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/9minseok/portfolio",
-    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=c71bae39718b498581cd9168924133ce&pm=c",
+    previewUrl: "https://www.notion.so/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=0286c4f2f96e4125bf15b4f1f465332e&pm=c",
   },
   {
     id: 3,
+    title: "DRILL",
+    description: "클라이밍 커뮤니티 앱",
+    image: "/images/projects/DRILL.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/9minseok/DRILL",
+    previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=0038d7fa278a40c8a6aa023fe4b156c6&pm=c",
+  },
+  {
+    id: 4,
     title: "Eager Beaver",
     description: "부동산 웹 게임 시뮬레이션",
     image: "/images/projects/EagerBeaver.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=6f9b55431db24b53958a2ce17bd4617a&pm=c",
   },
   {
-    id: 4,
+    id: 5,
     title: "SSWM",
     description: "화상 스터디 웹사이트",
     image: "/images/projects/SSWM.png",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=950c8267401f42ef9dbedd5336e37850&pm=c",
   },
   {
-    id: 5,
+    id: 6,
     title: "AI무인점포",
     description: "무인 AI CCTV",
     image: "/images/projects/무인점포.jpg",
@@ -51,7 +60,7 @@ const projectsData = [
     previewUrl: "https://sudsy-ray-934.notion.site/Hello-I-m-MinSeok-0d528e6aa43840cdbb9d8f0d75c6d3c8?p=29ba7930062f46f1813c35d93f04c923&pm=c",
   },
   {
-    id: 6,
+    id: 7,
     title: "홈쇼핑 빅데이터 분석",
     description: "수요 예측 모델링",
     image: "/images/projects/홈쇼핑.png",
