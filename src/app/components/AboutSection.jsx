@@ -11,7 +11,6 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>React</li>
         <li>React-Native</li>
-        <li>Node.js</li>
         <li>Next.js</li>
         <li>TypeScript</li>
         <li>JavaScript</li>
