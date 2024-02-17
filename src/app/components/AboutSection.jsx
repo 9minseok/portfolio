@@ -61,7 +61,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            안녕하세요! 프론트엔드를 꿈꾸는 구민석입니다.
+            안녕하세요! 도전하는 개발자 구민석입니다.
             <br/>
             계속해서 변화하는 시대에 맞춰 새로운 방식에 도전하는 것을 즐기는
             <br/>
